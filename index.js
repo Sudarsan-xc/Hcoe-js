@@ -72,11 +72,26 @@ switch (true) {
 }
 */
 //wap to ask usernAME and password
-const name = prompt("what is the name:");
-const username = prompt("what is the username:");
-const password = prompt("what is the password:");
-if (username === name && password === name) {
+//const name = prompt("what is the name:");
+//const username = prompt("what is the username:");
+//const password = prompt("what is the password:");
+/*if (username === name && password === name) {
   alert("welcome");
 } else {
   alert("invalid");
 }
+*/
+//loops
+/*
+1.for
+syntax:
+for(begin; condition;steps){
+}
+2.while
+syntax:
+while(condition){
+}
+3.do while
+syntax:
+do"{
+}while(condition);
