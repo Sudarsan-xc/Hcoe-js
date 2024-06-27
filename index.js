@@ -21,3 +21,18 @@ alert(si);
 //type conversion
 /*const num= String(10)
 const num=Number(num);*/
+
+//conditions
+// wap to SK GENDER and display
+//m=> you are male
+const gender= prompt("enter your gender:");
+if(gender==="male"){
+    alert(`you are ${gender}`);
+}
+else if(gender==="female"){
+    alert(`you are ${gender}`);
+}
+else{
+    alert("6");
+}
+
