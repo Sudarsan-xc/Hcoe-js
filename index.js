@@ -89,9 +89,41 @@ for(begin; condition;steps){
 }
 2.while
 syntax:
+let i=0
 while(condition){
+//
+i++
 }
 3.do while
 syntax:
+let i=0
 do"{
+//
+i++
 }while(condition);
+*/
+//multiplication table of 12
+/*let num = 12;
+let i = 1;
+while (i <= 10) {
+  num1 = num * i;
+  i++;
+  console.log(num1);
+}*/
+
+// wap to add number format
+//10000=>10,000 //look onto number
+
+//concate and change cases
+//methods
+//charcode at
+//slice
+//to uppercase
+//concat
+
+//const fname = "sudarsan";
+//const lname = "sharma";
+function formatNumber(number) {
+  return number.toLocaleString("en-US");
+}
+console.log(formatNumber(10000));
