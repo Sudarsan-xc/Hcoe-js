@@ -197,5 +197,54 @@ const temprconv = (temp, given = "C") => {
   } else return given;
 };
 console.log(temprconv(100, ""));
-*/
+
 //objects
+//create
+//define
+const laptop = {
+  model: "Dell",
+  modelyear: 2020,
+  working: true,
+  age: () => {
+    return 2024 - this.laptop.modelyear;
+  },
+  fullName: function () {
+    return model + name;
+  },
+};
+//read
+const laptopmodel = laptop.model;
+const laptopage = laptop.age;
+console.log(laptopage);
+
+console.log(laptopmodel);
+const prod = {
+  name: "headphones",
+  price: 83.7,
+  discount: "7%",
+  new_pp: function () {
+    return this.price - this.price * this.discount;
+  },
+};
+
+const getNewProduct = (product) => {
+  const { price, discount, ...rest } = product;
+  const discountAmount = price > 100 ? 0.1 * price : 0.07 * price;
+  rest.price = price - discountAmount;
+  rest.discount = price > 100 ? "10%" : "7%;";
+  return rest;
+};
+const getnewprod = getNewProduct(prod);
+console.log(newprod);
+*/
+//aray
+const classes = [];
+//update
+classes[0] = "ram";
+classes[1] = "Dram";
+classes[2] = "Sram";
+console.log(classes);
+//read
+console.log(classes[0]);
+classes.shift;
+console.log;
