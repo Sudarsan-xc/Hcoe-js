@@ -121,9 +121,80 @@ while (i <= 10) {
 //to uppercase
 //concat
 
-//const fname = "sudarsan";
-//const lname = "sharma";
-function formatNumber(number) {
+/*const fname = "sudarsan";
+const lname = "sharma";
+const firstname = fname
+  .slice(0, 1)
+  .toUpperCase()
+  .concat(fname.slice(1, fname.length));
+console.log(firstname);
+
+/*function formatNumber(number) {
   return number.toLocaleString("en-US");
 }
 console.log(formatNumber(10000));
+*/
+//utility function
+//dealing with logics
+//deal with array, object
+//functions
+//wap es6 to sum two number
+//function declare
+/*const sum = (a, b) => {
+  return a + b;
+};
+//fn execution
+const result = sum(110, 200);
+console.log(result);
+
+//types of function 
+1.default function
+const paging(num)=>{
+  con}
+2. parameterized
+3. closure
+4. explicit
+5. implicit
+6.anonymous 
+7. inline
+8. IIFE
+
+//default
+const paging = (num = 5) => {
+  console.log(num);
+};
+paging(1);
+paging();
+//closure (important)
+const pw=(){
+}
+8. IIFE
+(() => {
+  console.log("hello");
+})();
+//4. explicit function
+const sum =(a,b)=>{
+  return a+b;
+  }
+  //5. implicit function
+const sum =(a,b)=>a+b
+//reverse a string
+const reve = (num) => num.toString().split("").reverse().join("");
+console.log(reve(32243));
+
+//wap to accept string and count no of vowels exclude y
+
+const vowels
+const str = (name) => name.split("").length;
+console.log(str("the quick brown fox"));
+console.log(str2("a,e,i,o,u"));
+
+// wap to convert tempr to 'C' to to fahrenheit
+const temprconv = (temp, given = "C") => {
+  if (given != "C") {
+    given = ((given - 32) / 9) * 5;
+    return given;
+  } else return given;
+};
+console.log(temprconv(100, ""));
+*/
