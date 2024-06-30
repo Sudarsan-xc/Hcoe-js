@@ -236,7 +236,7 @@ const getNewProduct = (product) => {
 };
 const getnewprod = getNewProduct(prod);
 console.log(newprod);
-*/
+
 //aray
 const classes = [];
 //update
@@ -248,3 +248,13 @@ console.log(classes);
 console.log(classes[0]);
 classes.shift;
 console.log;
+// number compare
+const array1 = [1, 2, 3, 4, 5];
+const array2 = [4, 5, 6, 7, 8];
+const commonElements = array1.filter((value) => array2.includes(value));
+console.log(commonElements);
+*/
+const food1 = ["noodles", "pasta", "icecream"];
+const food2 = ["fries", "pizza", "icecream"];
+const commonfood = food1.filter((value) => food2.includes(value));
+console.log(commonfood);
